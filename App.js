@@ -1,11 +1,14 @@
-import React from 'react';
-import {Text,View} from 'react-native';
+import React, { useState } from 'react';
+import {Text,View,Image,StyleSheet, Button} from 'react-native';
 import ImagePicker from 'react-native-image-picker';
 
+import Picker from './src/picker'
+
 const App = () => {
+
   return(
     <View>
-      <Text>Hello</Text>
+      <Picker/>
     </View>
   )
 }
